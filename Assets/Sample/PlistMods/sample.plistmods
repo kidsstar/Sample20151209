@@ -1,0 +1,106 @@
+{
+  "type": "dict",
+  "value": {
+    "-CFBundleIconFiles": null,
+    "-UISupportedInterfaceOrientations": null,
+    "-UISupportedInterfaceOrientations~ipad": null,
+    "UISupportedInterfaceOrientations": {
+      "type": "array",
+      "value": [
+        {
+          "type": "string",
+          "value": "UIInterfaceOrientationLandscapeLeft"
+        },
+        {
+          "type": "string",
+          "value": "UIInterfaceOrientationLandscapeRight"
+        }
+      ]
+    },
+    "UISupportedInterfaceOrientations~ipad": {
+      "type": "array",
+      "value": [
+        {
+          "type": "string",
+          "value": "UIInterfaceOrientationLandscapeLeft"
+        },
+        {
+          "type": "string",
+          "value": "UIInterfaceOrientationLandscapeRight"
+        }
+      ]
+    },
+    "NSAppTransportSecurity": {
+      "type": "dict",
+      "value": {
+        "NSExceptionDomains": {
+          "type": "dict",
+          "value": {
+            "kidsstar.tv": {
+              "type": "dict",
+              "value": {
+                "NSExceptionAllowsInsecureHTTPLoads": {
+                  "type": "bool",
+                  "value": true
+                },
+                "NSExceptionRequiresForwardSecrecy": {
+                  "type": "bool",
+                  "value": false
+                },
+                "NSIncludesSubdomains": {
+                  "type": "bool",
+                  "value": true
+                }
+              }
+            },
+            "cloudfront.net": {
+              "type": "dict",
+              "value": {
+                "NSExceptionAllowsInsecureHTTPLoads": {
+                  "type": "bool",
+                  "value": true
+                },
+                "NSExceptionRequiresForwardSecrecy": {
+                  "type": "bool",
+                  "value": false
+                },
+                "NSIncludesSubdomains": {
+                  "type": "bool",
+                  "value": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "CFBundleURLTypes": {
+      "type": "array",
+      "value": [
+        {
+          "type": "dict",
+          "value": {
+            "CFBundleTypeRole": {
+              "type": "string",
+              "value": "Editor"
+            },
+            "CFBundleURLName": {
+              "type": "string",
+              "value": "tv.kidsstar.app.${PRODUCT_NAME:rfc1034identifier}"
+            },
+            "CFBundleURLSchemes": {
+              "type": "array",
+              "value": [
+                {
+                  "type": "string",
+                  "value": "tv.kidsstar.app.${PRODUCT_NAME:rfc1034identifier}"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+
